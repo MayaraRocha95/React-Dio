@@ -1,11 +1,10 @@
 
-
-export default function Button(props) {
-    const { title } = props;
+const Button = () => {
   return (
-    <button>
-      {title}
-    </button>
-  )
+    <div className="App">
+ ola
+    </div>
+  );
 }
 
+export default Button;
